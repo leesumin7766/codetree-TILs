@@ -1,0 +1,5 @@
+a , b = input().split()
+a = int (a)
+b = int (b)
+p = (a + b) / (a - b)
+print("%.2f"%p)
