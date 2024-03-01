@@ -6,7 +6,7 @@ mm = int(mm)
 e = int(e)
 ee = int(ee)
 
-if m > e and mm > ee :
+if m > mm and e > ee :
     print(1)
 else :
     print(0)
