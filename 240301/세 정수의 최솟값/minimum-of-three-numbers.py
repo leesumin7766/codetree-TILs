@@ -17,3 +17,11 @@ elif b < a and a == c :
     print(b)
 elif c < b and b == a :
     print(c)
+elif a < c and a == b :
+    print(a)
+elif b < a and c == b :
+    print(b)
+elif c < b and c == a :
+    print(c)
+else :
+    print(a)
