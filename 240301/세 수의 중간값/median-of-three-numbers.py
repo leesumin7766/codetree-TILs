@@ -8,4 +8,4 @@ c = int(arr[2])
 if b > a and b < c:
     print(1)
 else :
-    print(c)
+    print(0)
