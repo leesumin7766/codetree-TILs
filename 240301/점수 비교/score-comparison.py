@@ -7,6 +7,6 @@ e = int(e)
 ee = int(ee)
 
 if m > e and mm > ee :
-    print("1")
+    print(1)
 else :
-    print("0")
+    print(0)
