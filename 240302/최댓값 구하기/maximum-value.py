@@ -13,5 +13,5 @@ else :
         print(a)
     elif b == c and b > a :
         print(b)
-    
-    print(c)
+    else :    
+        print(c)
