@@ -9,4 +9,9 @@ if a > b and a > c :
 elif b > a and b > c :
     print(b)
 else : 
-    print(c)
+    if a == b and b > c or a == c and c > b :
+        print(a)
+    elif b == c and b > a :
+        print(b)
+    
+print(c)
