@@ -1,4 +1,4 @@
 n = int(input())
 
-for n in range(n, (n * n) - n , n) :
-    print(n , end = ' ')
+for i in range(n, n * 6  , n) :
+    print(i , end = ' ')
