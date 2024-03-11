@@ -3,8 +3,9 @@ while True :
 
     if n < 25 :
         print("Higher")
-    if n > 25 :
+    elif n > 25 :
         print("Lower")
     else :
         print("Good")
+        
         break
