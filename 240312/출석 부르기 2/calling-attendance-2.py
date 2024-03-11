@@ -10,5 +10,6 @@ while True :
     elif n == 4 :
         print("Sam")
     else :
-        print("Vancancy")
+        print("Vacancy")
+        
         break
