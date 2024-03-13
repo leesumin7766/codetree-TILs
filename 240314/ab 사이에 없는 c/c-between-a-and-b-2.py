@@ -5,11 +5,11 @@ b = int(b)
 c = int(c)
 satisfied = False
 for i in range(a, b):
-    if i % c == 0 or i == c:
-        satisfied = True 
+    if i % c == 0 :
+        satisfied = False 
     else :
-        satisfied = False
+        satisfied = True
 if satisfied :
-    print("NO")
-else :
     print("YES")
+else :
+    print("NO")
