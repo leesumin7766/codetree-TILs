@@ -5,7 +5,7 @@ b = int(b)
 c = int(c)
 satisfied = False
 for i in range(a, b):
-    if i % c == 0 :
+    if i % c == 0 or i == c:
         satisfied = True 
     else :
         satisfied = False
