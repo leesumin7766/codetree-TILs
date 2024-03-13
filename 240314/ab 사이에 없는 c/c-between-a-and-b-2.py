@@ -9,7 +9,7 @@ for i in range(a, b):
         satisfied = True 
     else :
         satisfied = False
-if satisfied == True :
+if satisfied :
     print("NO")
 else :
     print("YES")
