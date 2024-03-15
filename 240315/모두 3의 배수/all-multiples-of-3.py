@@ -6,7 +6,7 @@ n5 = int(input())
 
 satisfied = True
 
-for i in range (n1, n5):
+for i in range (n1, n5 + 1):
     if i % 3 == 0 :
         satisfied = True
 
