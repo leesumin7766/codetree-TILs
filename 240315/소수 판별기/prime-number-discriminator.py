@@ -10,5 +10,5 @@ for i in range (2 , n) :
 
 if satisfied == True :
     print("P")
-else :
+if satisfied == False :
     print("C")
