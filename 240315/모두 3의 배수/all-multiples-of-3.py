@@ -1,16 +1,14 @@
-n1 = int(input())
-n2 = int(input())
-n3 = int(input())
-n4 = int(input())
-n5 = int(input())
+def check_multiples_of_3(numbers):
+    for num in numbers:
+        if num % 3 != 0:
+            return 0
+    return 1
 
-satisfied = True
+# 5개의 숫자 입력 받기
+numbers = [int(input()) for _ in range(5)]
 
-for i in range (n1, n5 + 1):
-    if i % 3 == 0 :
-        satisfied = True
+# 모든 수가 3의 배수인지 판단
+result = check_multiples_of_3(numbers)
 
-if satisfied == True :
-    print("1")
-else :
-    print("0")
+# 결과 출력
+print(result)
