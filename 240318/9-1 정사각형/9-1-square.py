@@ -3,7 +3,7 @@ n = int(input())
 cnt = 9
 
 for i in range(n) :
-    for j in range(9 , n + 1 , -1) :
+    for j in range(9 , n + 1 , -1 ) :
         print(cnt , end = "")
         cnt -= 1
         if cnt == 0 :
