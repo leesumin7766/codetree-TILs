@@ -8,8 +8,8 @@ for i in range(n) :
             print(cnt , end = " ")
             cnt += 1
     else :
-        for j in range(cnt + i , cnt  + i - n  , -1) :
-            print(j + 1 , end = " ")
+        for j in range(cnt + n - 1 , cnt -1  , -1) :
+            print(j , end = " ")
             cnt += 1
 
     print()
