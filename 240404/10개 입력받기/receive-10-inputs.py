@@ -9,4 +9,4 @@ for elem in arr :
         cnt += 1
 
 avg = sum_val / cnt
-print(sum_val , avg)
+print(sum_val , f"{avg:.1f}")
