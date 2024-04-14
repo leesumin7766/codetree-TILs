@@ -1,9 +1,9 @@
 n = int(input())
 arr = list(map(int, input().split()))
-cnt = 0
+number = 0
 for i in range(n , 0 , -1) :
     
     if i % 2 == 0 :
-        cnt += i
+        number += i
 
-print(cnt, end = " ")
+print(number, end = " ")
