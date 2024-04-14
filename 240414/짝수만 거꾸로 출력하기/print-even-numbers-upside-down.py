@@ -1,10 +1,8 @@
 n = int(input())
 arr = list(map(int, input().split()))
 
-i = 0
-for arr in range(n , 0 , -1) :
+
+for i in range(n -1 , -1 , -1) :
     
-    if arr % 2 == 0 :
-        i += arr
-        
-print(i, end = " ")
+    if arr[i] % 2 == 0 :
+        print(arr[i], end = " ")
