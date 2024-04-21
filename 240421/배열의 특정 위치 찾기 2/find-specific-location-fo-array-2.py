@@ -1,18 +1,17 @@
 arr = list(map(int, input().split()))
 
-n = len(arr)
-cnt_a = 0
-cnt_b = 0
+sum_a = 0
+sum_b = 0
 
-for i in range(n+1) :
+for i in range(10) :
     if i % 2 == 0 :
-        cnt_b += i
+        sum_b += arr[i]
     else :
-        cnt_a += i
+        sum_a += arr[i]
 
-if cnt_a > cnt_b :
-    print(cnt_a - cnt_b)
-elif cnt_b > cnt_a :
-    print(cnt_b - cnt_a)
+if sum_a > sum_b :
+    print(sum_a - sum_b)
+elif sum_b > sum_a :
+    print(sum_b - sum_a)
 else :
     print("0")
