@@ -6,6 +6,6 @@ sum_val = 0
 for i in range(4) :
     
     for j in range(4) :
-        if i <= j :
+        if i >= j :
             sum_val += arr_2d[i][j]
 print(sum_val)
